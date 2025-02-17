@@ -37,7 +37,9 @@ Sliding Tackle (Kayarak Müdahale): Oyuncunun kayarak topa müdahale etme beceri
 
 3. VERİ ÖN İŞLEME 
 2.1 EKSİK VE AYKIRI GÖZLEMLER
+   
 ![image](https://github.com/user-attachments/assets/ce0ad404-9e29-4a42-8a06-1fdcfd7d3ede)
+
 
 Aykırı değerler, veri analizi sürecinde sonuçları yanıltabilecek uç gözlemlerdir. Bu nedenle, her bir sayısal sütun için IQR (Interquartile Range) yöntemi kullanılarak alt ve üst sınırlar belirlenmiştir. Alt sınırın altındaki ve üst sınırın üstündeki değerler sırasıyla alt ve üst sınıra sabitlenmiştir. Bu işlem, verinin genel yapısını koruyarak aşırı uçların etkisini minimize etmeyi ve modelin daha dengeli sonuçlar üretmesi amaçlanmıştır.
 
