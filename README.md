@@ -1,6 +1,7 @@
 1. DEĞİŞKENLER VE VERİ SETİ
 1.1 ÖZET İSTATİSTİKLER
 ![image](https://github.com/user-attachments/assets/81c26e85-4605-4f12-9412-60619978653c)
+
 1.2 DEĞİŞKENLER HAKKINDA GENEL BİLGİ
 Overall Rating (Genel Derecelendirme): Oyuncunun genel yetenek seviyesi ve performansını gösteren bir değer.
 Potential (Potansiyel): Oyuncunun gelecekte ulaşabileceği maksimum yetenek seviyesi.
@@ -34,9 +35,10 @@ Marking (Markaj): Oyuncunun rakibini savunmada etkili şekilde takip etme beceri
 Standing Tackle (Ayakta Müdahale): Oyuncunun rakipten topu düzgün bir şekilde kazanma yeteneği.
 Sliding Tackle (Kayarak Müdahale): Oyuncunun kayarak topa müdahale etme becerisi.
 
-2. VERİ ÖN İŞLEME 
+3. VERİ ÖN İŞLEME 
 2.1 EKSİK VE AYKIRI GÖZLEMLER
 ![image](https://github.com/user-attachments/assets/ce0ad404-9e29-4a42-8a06-1fdcfd7d3ede)
+
 Aykırı değerler, veri analizi sürecinde sonuçları yanıltabilecek uç gözlemlerdir. Bu nedenle, her bir sayısal sütun için IQR (Interquartile Range) yöntemi kullanılarak alt ve üst sınırlar belirlenmiştir. Alt sınırın altındaki ve üst sınırın üstündeki değerler sırasıyla alt ve üst sınıra sabitlenmiştir. Bu işlem, verinin genel yapısını koruyarak aşırı uçların etkisini minimize etmeyi ve modelin daha dengeli sonuçlar üretmesi amaçlanmıştır.
 
 2.2 STANDARTLAŞTIRMA
@@ -193,6 +195,7 @@ CAIC:
 
 5.2 EĞİTİM
 ![image](https://github.com/user-attachments/assets/3421f8df-618b-4d46-86d0-87a4fd94e071)
+
 5.3 TEST 
 ![image](https://github.com/user-attachments/assets/c3f14d98-9524-43e2-beb0-aea955be0e7f)
 5.3 PERFORMANS DEĞERLENDİRMESİ VE SONUÇLAR
