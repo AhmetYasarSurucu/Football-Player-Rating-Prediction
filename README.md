@@ -199,7 +199,9 @@ CAIC:
 ![image](https://github.com/user-attachments/assets/3421f8df-618b-4d46-86d0-87a4fd94e071)
 
 5.3 TEST 
+
 ![image](https://github.com/user-attachments/assets/c3f14d98-9524-43e2-beb0-aea955be0e7f)
+
 5.3 PERFORMANS DEĞERLENDİRMESİ VE SONUÇLAR
 RMSE:
 Yapay Sinir Ağlarının eğitim setindeki RMSE değeri (0.1451), Random Forest ve Ensemble'den biraz daha yüksek olmasına rağmen test setindeki RMSE değeri (0.1738), Ensemble (0.1815) ve XGBoost (0.1926) gibi modellerden daha düşük olup, genelleme performansının güçlü olduğunu kanıtlamaktadır. 
